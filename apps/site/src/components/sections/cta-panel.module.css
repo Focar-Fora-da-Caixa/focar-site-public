@@ -1,0 +1,45 @@
+.section {
+  overflow: hidden;
+}
+
+.section::before {
+  position: absolute;
+  width: min(36vw, 32rem);
+  aspect-ratio: 1;
+  border: clamp(3rem, 8vw, 8rem) solid var(--color-brand-primary);
+  border-radius: 50%;
+  content: "";
+  inset: 50% -10vw auto auto;
+  opacity: 0.9;
+  transform: translateY(-50%);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  align-items: flex-start;
+}
+
+.eyebrow {
+  color: var(--color-brand-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-label);
+  text-transform: uppercase;
+}
+
+.title {
+  max-width: 20ch;
+  font-size: var(--font-size-3xl);
+  line-height: var(--line-height-heading);
+}
+
+.description {
+  max-width: 43rem;
+  color: color-mix(in srgb, var(--color-text-inverse) 70%, transparent);
+  font-size: var(--font-size-lg);
+}
+
+.action {
+  margin-top: var(--space-4);
+}

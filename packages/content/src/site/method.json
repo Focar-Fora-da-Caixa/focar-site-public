@@ -1,0 +1,123 @@
+{
+  "status": "draft",
+  "seo": {
+    "title": "Sistema Focar de Crescimento Digital",
+    "description": "Conheça o ciclo de diagnóstico, direção, produção, distribuição, análise e otimização da Focar."
+  },
+  "hero": {
+    "eyebrow": "Sistema Focar de Crescimento Digital",
+    "title": "Crescimento não acontece em uma ação isolada. Acontece em ciclos.",
+    "description": "A Focar conecta estratégia e execução em um processo contínuo para organizar prioridades, produzir com intenção e transformar dados em decisões.",
+    "primaryAction": {
+      "label": "Solicitar diagnóstico",
+      "href": "/contato"
+    },
+    "secondaryAction": {
+      "label": "Ver as etapas",
+      "href": "/metodo#metodo"
+    }
+  },
+  "cycle": {
+    "eyebrow": "O ciclo",
+    "title": "Seis etapas conectadas para substituir improviso por evolução.",
+    "description": "Cada etapa produz um resultado útil para a próxima. O sistema organiza o trabalho, mas não funciona como fórmula pronta nem promessa de resultado.",
+    "steps": [
+      {
+        "id": "diagnostico",
+        "number": "01",
+        "title": "Diagnóstico",
+        "description": "Onboarding, briefing e análise de presença, concorrentes, posicionamento, público e linguagem.",
+        "outcome": "Compreensão compartilhada do negócio, das limitações e das oportunidades."
+      },
+      {
+        "id": "direcao",
+        "number": "02",
+        "title": "Direção",
+        "description": "Planejamento, calendário, temas, indicadores e organização dos principais pontos de contato digitais.",
+        "outcome": "Prioridades claras para conteúdo, campanha e presença."
+      },
+      {
+        "id": "producao",
+        "number": "03",
+        "title": "Produção",
+        "description": "Roteiros, captação, direção do cliente em vídeo, edição e design digital.",
+        "outcome": "Comunicação coerente com a estratégia e com a força real do negócio."
+      },
+      {
+        "id": "distribuicao",
+        "number": "04",
+        "title": "Distribuição",
+        "description": "Publicação, gestão de canais, configuração de anúncios e operação de campanhas.",
+        "outcome": "Conteúdo e oferta chegando às pessoas definidas no planejamento."
+      },
+      {
+        "id": "analise",
+        "number": "05",
+        "title": "Análise",
+        "description": "Relatórios, leitura de desempenho, aprendizados e reunião de acompanhamento.",
+        "outcome": "Dados transformados em leitura útil, não apenas números."
+      },
+      {
+        "id": "otimizacao",
+        "number": "06",
+        "title": "Otimização",
+        "description": "Ajustes de conteúdo, tráfego, posicionamento e próximos ciclos.",
+        "outcome": "Evolução progressiva a partir do que foi aprendido."
+      }
+    ]
+  },
+  "timeline": {
+    "eyebrow": "Primeiros 90 dias",
+    "title": "Tempo suficiente para entender, testar e começar a evoluir.",
+    "description": "O ciclo inicial existe porque crescimento digital exige diagnóstico, construção, teste, leitura e ajuste.",
+    "items": [
+      {
+        "number": "01",
+        "period": "Mês 1",
+        "title": "Entendimento",
+        "description": "Onboarding, análise, organização inicial, definição de linguagem, primeira produção e primeiras campanhas."
+      },
+      {
+        "number": "02",
+        "period": "Mês 2",
+        "title": "Validação",
+        "description": "Continuidade do conteúdo, primeiros aprendizados, ajustes de campanhas e refinamento da direção."
+      },
+      {
+        "number": "03",
+        "period": "Mês 3",
+        "title": "Consolidação inicial",
+        "description": "Revisão do que funcionou, evolução do posicionamento e planejamento do ciclo seguinte."
+      }
+    ]
+  },
+  "indicators": {
+    "eyebrow": "Dados com contexto",
+    "title": "Indicadores servem para decidir o próximo movimento.",
+    "description": "Os indicadores dependem da maturidade, do ciclo de venda e da capacidade comercial de cada empresa. Curtidas e seguidores não são apresentados isoladamente como prova de crescimento.",
+    "items": [
+      "Alcance qualificado e frequência",
+      "Retenção e consumo de conteúdo",
+      "Buscas pela marca",
+      "Visitas a páginas estratégicas",
+      "Conversas e leads qualificados",
+      "Custo por oportunidade",
+      "Taxa de conversão comercial",
+      "Receita influenciada"
+    ]
+  },
+  "limits": {
+    "eyebrow": "Responsabilidade compartilhada",
+    "title": "Marketing influencia crescimento. Não controla todo o negócio.",
+    "description": "A Focar influencia posicionamento, presença, geração de demanda e aprendizado. Resultado comercial também depende de oferta, preço, atendimento, capacidade, reputação, mercado e processo de vendas do cliente."
+  },
+  "cta": {
+    "eyebrow": "Próximo passo",
+    "title": "Antes de produzir mais, vale entender onde está o principal gargalo.",
+    "description": "O diagnóstico inicial organiza o momento da empresa e ajuda a definir se a Gestão de Crescimento Digital é o caminho adequado.",
+    "action": {
+      "label": "Solicitar diagnóstico",
+      "href": "/contato"
+    }
+  }
+}

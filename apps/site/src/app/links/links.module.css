@@ -1,0 +1,223 @@
+.page {
+  min-height: 100vh;
+  color: var(--color-text-inverse);
+  background:
+    radial-gradient(circle at top, rgb(255 50 49 / 22%), transparent 32rem),
+    linear-gradient(180deg, #111214 0%, #0b0b0d 52%, #161619 100%);
+}
+
+.shell {
+  width: min(100%, 30rem);
+  margin: 0 auto;
+  padding: clamp(0.9rem, 4vw, 1.5rem) 0 clamp(1.5rem, 7vw, 2.5rem);
+}
+
+.panel {
+  position: relative;
+  overflow: clip;
+  display: grid;
+  gap: var(--space-5);
+  padding: clamp(1.1rem, 4vw, 1.35rem);
+  border: 1px solid rgb(255 255 255 / 12%);
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.02)),
+    rgb(255 255 255 / 0.04);
+  box-shadow: 0 24px 64px rgb(0 0 0 / 22%);
+  isolation: isolate;
+}
+
+.panel::after {
+  content: "";
+  position: absolute;
+  inset: auto -2rem -4rem auto;
+  width: 10rem;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background: rgb(255 50 49 / 16%);
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.brandMark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.9rem;
+  height: 2.9rem;
+  border-radius: 0.95rem;
+  color: var(--color-neutral-950);
+  background: var(--color-brand-primary);
+  flex: none;
+}
+
+.symbol {
+  width: 1.45rem;
+  height: auto;
+}
+
+.headerLabel {
+  font-size: 0.72rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 68%);
+}
+
+.intro {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.title {
+  max-width: 9ch;
+  font-size: clamp(1.8rem, 8.2vw, 2.45rem);
+  line-height: 0.94;
+}
+
+.description {
+  max-width: 26ch;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: rgb(255 255 255 / 72%);
+}
+
+.actions {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.primaryAction,
+.secondaryAction {
+  display: grid;
+  gap: 0.45rem;
+  width: 100%;
+  padding: 1rem 1rem 1.05rem;
+  border-radius: 1.2rem;
+  text-decoration: none;
+  transition:
+    transform var(--duration-normal) var(--ease-standard),
+    border-color var(--duration-normal) var(--ease-standard),
+    background-color var(--duration-normal) var(--ease-standard),
+    box-shadow var(--duration-normal) var(--ease-standard);
+}
+
+.primaryAction {
+  color: var(--color-neutral-950);
+  background: var(--color-brand-primary);
+  box-shadow: 0 14px 36px rgb(255 50 49 / 20%);
+}
+
+.secondaryAction {
+  border: 1px solid rgb(255 255 255 / 12%);
+  color: var(--color-text-inverse);
+  background: rgb(255 255 255 / 0.025);
+}
+
+.primaryAction:hover,
+.primaryAction:focus-visible,
+.secondaryAction:hover,
+.secondaryAction:focus-visible {
+  transform: translateY(-2px);
+}
+
+.secondaryAction:hover,
+.secondaryAction:focus-visible {
+  border-color: rgb(255 255 255 / 22%);
+  background: rgb(255 255 255 / 0.05);
+}
+
+.actionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.actionLabel {
+  font-size: 1.1rem;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.actionIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  background: rgb(11 11 13 / 10%);
+  flex: none;
+}
+
+.secondaryAction .actionIcon {
+  background: rgb(255 255 255 / 0.09);
+}
+
+.actionNote {
+  max-width: 28ch;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  color: inherit;
+  opacity: 0.72;
+}
+
+.channelsSection {
+  display: grid;
+  gap: var(--space-3);
+  padding-top: var(--space-2);
+  border-top: 1px solid rgb(255 255 255 / 10%);
+}
+
+.channelsTitle {
+  font-size: 0.78rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 54%);
+}
+
+.metaCard {
+  padding: 0.9rem 1rem;
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 1rem;
+  background: rgb(255 255 255 / 0.02);
+}
+
+.metaLabel {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 56%);
+}
+
+.metaCard a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.95rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-neutral-0);
+  text-decoration: none;
+}
+
+@media (min-width: 48rem) {
+  .shell {
+    padding-top: clamp(1.25rem, 4vw, 2rem);
+  }
+
+  .actions,
+  .channelsSection {
+    gap: var(--space-4);
+  }
+}

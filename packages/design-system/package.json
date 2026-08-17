@@ -1,0 +1,11 @@
+{
+  "name": "@focar/design-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/tokens.ts",
+    "./tokens.css": "./src/tokens.css"
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "name": "Focar Fora da Caixa",
+  "shortName": "Focar",
+  "website": "https://focarforadacaixa.com.br",
+  "category": "Empresa de crescimento digital",
+  "tagline": "Menos marketing improvisado. Mais crescimento digital com direção, conteúdo e dados.",
+  "belief": "Empresas boas não podem parecer pequenas no digital.",
+  "description": "A Focar une posicionamento, conteúdo estratégico, produção audiovisual, tráfego pago e análise de dados para estruturar o crescimento digital de empresas locais e regionais.",
+  "region": "Rio Grande do Sul e região Sul",
+  "primaryCta": {
+    "label": "Solicitar diagnóstico",
+    "href": "/contato"
+  },
+  "secondaryCta": {
+    "label": "Conhecer o método",
+    "href": "/metodo"
+  },
+  "assets": {
+    "logoFull": "/brand/completo.svg",
+    "logoSymbol": "/brand/logo.svg",
+    "logoWordmark": "/brand/nome-logo.svg",
+    "status": "available"
+  }
+}

@@ -1,0 +1,96 @@
+.hero {
+  border-bottom: var(--border-width) solid var(--color-border);
+}
+
+.eyebrow,
+.identityLabel {
+  color: var(--color-text-accent);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-label);
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  max-width: 11ch;
+  margin-top: var(--space-5);
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-tight);
+}
+
+.lead {
+  max-width: 46rem;
+  margin-top: var(--space-6);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-lg);
+}
+
+.updated {
+  margin-top: var(--space-8);
+  color: var(--color-text-subtle);
+  font-size: var(--font-size-sm);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.55fr) minmax(0, 1fr);
+  gap: clamp(var(--space-12), 8vw, var(--space-24));
+  align-items: start;
+}
+
+.identity {
+  position: sticky;
+  top: calc(var(--header-height) + var(--space-6));
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  border: var(--border-width) solid var(--color-border);
+  background: var(--color-background);
+}
+
+.identity h2 {
+  margin-top: var(--space-2);
+  font-size: var(--font-size-xl);
+}
+
+.identity p:not(.identityLabel) {
+  color: var(--color-text-subtle);
+}
+
+.identity a {
+  overflow-wrap: anywhere;
+  font-weight: var(--font-weight-semibold);
+}
+
+.sections {
+  display: grid;
+}
+
+.sections section {
+  display: grid;
+  gap: var(--space-4);
+  padding-block: var(--space-8);
+  border-bottom: var(--border-width) solid var(--color-border);
+}
+
+.sections section:first-child {
+  padding-top: 0;
+}
+
+.sections h2 {
+  font-size: var(--font-size-2xl);
+}
+
+.sections p {
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 48rem) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .identity {
+    position: static;
+  }
+}

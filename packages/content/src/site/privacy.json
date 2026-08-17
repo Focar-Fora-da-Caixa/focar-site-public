@@ -1,0 +1,62 @@
+{
+  "status": "approved",
+  "seo": {
+    "title": "Política de Privacidade",
+    "description": "Entenda como a Focar trata os dados enviados pelo formulário de diagnóstico."
+  },
+  "hero": {
+    "eyebrow": "Privacidade e transparência",
+    "title": "Política de Privacidade",
+    "description": "Esta política explica quais dados são coletados no site, para que são usados e como o titular pode exercer seus direitos."
+  },
+  "controller": {
+    "name": "Reni Borges",
+    "document": "CNPJ 41.538.444/0001-62",
+    "contactEmail": "contato@focarforadacaixa.com.br"
+  },
+  "sections": [
+    {
+      "title": "Dados tratados",
+      "paragraphs": [
+        "Quando você solicita um diagnóstico, podemos tratar nome, empresa, cidade, WhatsApp, segmento de atuação, desafio informado e dados técnicos necessários à segurança do envio.",
+        "O site não solicita dados pessoais sensíveis no formulário. Evite incluí-los no campo de mensagem."
+      ]
+    },
+    {
+      "title": "Finalidades e bases legais",
+      "paragraphs": [
+        "Os dados são usados para analisar a solicitação, entrar em contato, compreender o contexto da empresa, prevenir abuso do formulário e manter a segurança do site.",
+        "O tratamento ocorre para atender à solicitação do titular e, quando aplicável, com base em procedimentos preliminares relacionados a uma possível contratação, legítimo interesse em proteger o canal e cumprimento de obrigações legais."
+      ]
+    },
+    {
+      "title": "Compartilhamento e operadores",
+      "paragraphs": [
+        "Os dados podem ser processados por fornecedores essenciais de hospedagem, e-mail e proteção anti-spam, limitados ao necessário para operar e proteger o canal.",
+        "A Focar não comercializa os dados enviados pelo formulário."
+      ]
+    },
+    {
+      "title": "Armazenamento e segurança",
+      "paragraphs": [
+        "Os dados são mantidos pelo período necessário para responder à solicitação, conduzir eventual relação comercial, cumprir obrigações legais e resguardar direitos.",
+        "São adotadas medidas técnicas e administrativas proporcionais ao risco, mas nenhum sistema conectado à internet é completamente imune a incidentes."
+      ]
+    },
+    {
+      "title": "Direitos do titular",
+      "paragraphs": [
+        "O titular pode solicitar confirmação de tratamento, acesso, correção, anonimização, bloqueio, eliminação, informação sobre compartilhamentos, revogação do consentimento e demais direitos previstos na legislação aplicável.",
+        "A solicitação será analisada com validação de identidade quando necessária para proteger os próprios dados do titular."
+      ]
+    },
+    {
+      "title": "Atualizações desta política",
+      "paragraphs": [
+        "Esta política pode ser atualizada para refletir mudanças no site, nos fornecedores ou nas práticas de tratamento. A versão vigente e sua data de atualização permanecem publicadas nesta página."
+      ]
+    }
+  ],
+  "lastUpdatedLabel": "Última atualização",
+  "lastUpdated": "2 de julho de 2026"
+}

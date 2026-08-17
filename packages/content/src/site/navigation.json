@@ -1,0 +1,12 @@
+{
+  "primary": [
+    { "label": "Sobre", "href": "/sobre" },
+    { "label": "Método", "href": "/metodo" },
+    { "label": "Serviços", "href": "/servicos" },
+    { "label": "Projetos", "href": "/cases" },
+    { "label": "Manifesto", "href": "/manifesto" }
+  ],
+  "utility": [
+    { "label": "Contato", "href": "/contato" }
+  ]
+}

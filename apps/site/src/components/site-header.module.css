@@ -1,0 +1,221 @@
+.header {
+  position: sticky;
+  z-index: var(--z-header);
+  top: 0;
+  min-height: var(--header-height);
+  border-bottom: var(--border-width) solid var(--color-border);
+  background: color-mix(in srgb, var(--color-background) 92%, transparent);
+  backdrop-filter: blur(18px);
+  transition:
+    background-color var(--duration-normal) var(--ease-standard),
+    border-color var(--duration-normal) var(--ease-standard),
+    transform var(--duration-normal) var(--ease-standard);
+}
+
+.inner {
+  display: flex;
+  min-height: var(--header-height);
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(var(--space-3), 2vw, var(--space-6));
+}
+
+.brand {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+}
+
+.wordmark,
+.symbol {
+  display: inline-flex;
+  align-items: center;
+  transition:
+    opacity var(--duration-normal) var(--ease-standard),
+    transform var(--duration-normal) var(--ease-standard),
+    width var(--duration-normal) var(--ease-standard);
+}
+
+.wordmark {
+  width: 8.25rem;
+  overflow: hidden;
+}
+
+.wordmark svg {
+  width: 8.25rem;
+  height: auto;
+  color: var(--color-text);
+}
+
+.symbol {
+  width: 0;
+  opacity: 0;
+  transform: translateX(-0.5rem) scale(0.88);
+  overflow: hidden;
+}
+
+.symbol svg {
+  width: 2.25rem;
+  height: auto;
+  color: var(--color-text);
+}
+
+.links {
+  display: flex;
+  gap: var(--space-8);
+  list-style: none;
+}
+
+.links a {
+  position: relative;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-standard);
+}
+
+.links a::after {
+  position: absolute;
+  right: 0;
+  bottom: -0.45rem;
+  left: 0;
+  height: 2px;
+  background: var(--color-brand-primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-normal) var(--ease-standard);
+  content: "";
+}
+
+.links a:hover {
+  color: var(--color-text);
+}
+
+.links a:hover::after,
+.links a[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+.links a[aria-current="page"] {
+  color: var(--color-text);
+}
+
+.action {
+  display: inline-flex;
+  min-width: 13.5rem;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-pill);
+  color: var(--color-text-inverse);
+  background: var(--color-action);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  text-decoration: none;
+  transition:
+    min-width var(--duration-normal) var(--ease-standard),
+    padding var(--duration-normal) var(--ease-standard),
+    background-color var(--duration-normal) var(--ease-standard),
+    transform var(--duration-normal) var(--ease-standard);
+}
+
+.action:hover {
+  background: var(--color-action-hover);
+  transform: translateY(-1px);
+}
+
+.actionIcon {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+
+.actionIcon svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+
+.actionLabel {
+  white-space: nowrap;
+  transition:
+    opacity var(--duration-normal) var(--ease-standard),
+    width var(--duration-normal) var(--ease-standard);
+}
+
+@media (min-width: 48rem) {
+  .header[data-compact="true"] .inner {
+    gap: var(--space-4);
+  }
+
+  .header[data-compact="true"] .wordmark {
+    width: 0;
+    opacity: 0;
+    transform: translateX(-0.5rem);
+  }
+
+  .header[data-compact="true"] .symbol {
+    width: 2.25rem;
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+
+  .header[data-compact="true"] .action {
+    min-width: 3rem;
+    gap: 0;
+    padding-inline: 0;
+  }
+
+  .header[data-compact="true"] .actionLabel {
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+}
+
+@media (hover: hover) and (min-width: 48rem) {
+  .header[data-compact="true"] .action:hover,
+  .header[data-compact="true"] .action:focus-visible {
+    gap: var(--space-3);
+    min-width: 13.5rem;
+    padding-inline: var(--space-6);
+  }
+
+  .header[data-compact="true"] .action:hover .actionLabel,
+  .header[data-compact="true"] .action:focus-visible .actionLabel {
+    width: auto;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 64rem) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 30rem) {
+  .wordmark,
+  .wordmark svg {
+    width: 6.25rem;
+  }
+
+  .action {
+    min-width: auto;
+    min-height: 2.75rem;
+    padding-inline: var(--space-4);
+  }
+
+  .actionLabel {
+    font-size: 0.8125rem;
+  }
+}

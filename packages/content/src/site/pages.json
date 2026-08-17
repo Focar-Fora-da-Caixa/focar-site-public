@@ -1,0 +1,127 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Crescimento digital com direção",
+      "goal": "Apresentar o posicionamento, demonstrar método e conduzir para diagnóstico.",
+      "status": "draft",
+      "sections": [
+        { "id": "hero", "component": "hero", "purpose": "Posicionamento, crença e CTA principal." },
+        { "id": "problem", "component": "problem-statement", "purpose": "Materializar os sintomas do marketing improvisado." },
+        { "id": "belief", "component": "thesis", "purpose": "Explicar por que empresas boas não podem parecer pequenas no digital." },
+        { "id": "method", "component": "method-steps", "purpose": "Apresentar o Sistema Focar em seis etapas." },
+        { "id": "services", "component": "service-grid", "purpose": "Apresentar os três blocos públicos de oferta." },
+        { "id": "difference", "component": "differentiators", "purpose": "Demonstrar estratégia com execução e produção própria." },
+        { "id": "fit", "component": "fit-checklist", "purpose": "Qualificar empresas com maior aderência à Focar." },
+        { "id": "evidence", "component": "evidence", "purpose": "Exibir casos e resultados verificáveis quando disponíveis." },
+        { "id": "cta", "component": "cta-panel", "purpose": "Convidar para diagnóstico com expectativa clara." }
+      ]
+    },
+    {
+      "id": "about",
+      "path": "/sobre",
+      "title": "Sobre a Focar",
+      "goal": "Apresentar história, visão, Amanda, equipe e modo de trabalhar.",
+      "status": "architecture",
+      "sections": [
+        { "id": "intro", "component": "hero", "purpose": "Apresentar a empresa e seu território." },
+        { "id": "story", "component": "narrative", "purpose": "Contar a origem da Focar sem criar informação ausente." },
+        { "id": "belief", "component": "thesis", "purpose": "Conectar a história à crença central." },
+        { "id": "amanda", "component": "human-profile", "purpose": "Mostrar Amanda como liderança e presença humana." },
+        { "id": "team", "component": "team", "purpose": "Institucionalizar competências e autoridade." },
+        { "id": "principles", "component": "value-grid", "purpose": "Apresentar clareza, direção, presença, consistência, responsabilidade e evolução." },
+        { "id": "cta", "component": "cta-panel", "purpose": "Conduzir para conversa." }
+      ]
+    },
+    {
+      "id": "method",
+      "path": "/metodo",
+      "title": "Sistema Focar de Crescimento Digital",
+      "goal": "Tornar o processo visível e sustentar percepção de valor.",
+      "status": "draft",
+      "sections": [
+        { "id": "intro", "component": "hero", "purpose": "Explicar o sistema e seu resultado esperado." },
+        { "id": "cycle", "component": "method-steps", "purpose": "Detalhar diagnóstico, direção, produção, distribuição, análise e otimização." },
+        { "id": "first-90-days", "component": "timeline", "purpose": "Explicar entendimento, validação e consolidação inicial." },
+        { "id": "indicators", "component": "metric-framework", "purpose": "Explicar como dados orientam decisões." },
+        { "id": "responsibilities", "component": "responsibility-split", "purpose": "Diferenciar responsabilidades da Focar e do cliente." },
+        { "id": "cta", "component": "cta-panel", "purpose": "Solicitar diagnóstico." }
+      ]
+    },
+    {
+      "id": "services",
+      "path": "/servicos",
+      "title": "Serviços",
+      "goal": "Explicar as ofertas sem reduzir valor a volume de entregáveis.",
+      "status": "architecture",
+      "sections": [
+        { "id": "intro", "component": "hero", "purpose": "Apresentar a arquitetura de ofertas." },
+        { "id": "management", "component": "offer-detail", "purpose": "Apresentar Gestão de Crescimento Digital como oferta principal recorrente." },
+        { "id": "projects", "component": "offer-detail", "purpose": "Apresentar Projetos de Crescimento com escopo fechado." },
+        { "id": "production", "component": "offer-detail", "purpose": "Apresentar Produção de Conteúdo Estratégico." },
+        { "id": "fit", "component": "fit-checklist", "purpose": "Qualificar aderência e expectativas." },
+        { "id": "faq", "component": "faq", "purpose": "Responder objeções comerciais reais." },
+        { "id": "cta", "component": "cta-panel", "purpose": "Solicitar diagnóstico." }
+      ]
+    },
+    {
+      "id": "manifesto",
+      "path": "/manifesto",
+      "title": "Manifesto",
+      "goal": "Expressar a crença central da marca com força editorial.",
+      "status": "architecture",
+      "sections": [
+        { "id": "manifesto", "component": "manifesto", "purpose": "Publicar o manifesto aprovado." },
+        { "id": "cta", "component": "cta-panel", "purpose": "Conectar crença e próximo passo." }
+      ]
+    },
+    {
+      "id": "cases",
+      "path": "/cases",
+      "title": "Projetos e resultados",
+      "goal": "Comprovar o método por contexto, decisões e evidências verificáveis.",
+      "status": "blocked-by-evidence",
+      "sections": [
+        { "id": "intro", "component": "hero", "purpose": "Explicar como os projetos serão apresentados." },
+        { "id": "cases", "component": "case-grid", "purpose": "Listar somente casos autorizados." },
+        { "id": "cta", "component": "cta-panel", "purpose": "Conduzir para diagnóstico." }
+      ]
+    },
+    {
+      "id": "contact",
+      "path": "/contato",
+      "title": "Solicitar diagnóstico",
+      "goal": "Iniciar uma conversa qualificada com baixa fricção.",
+      "status": "draft",
+      "sections": [
+        { "id": "intro", "component": "hero", "purpose": "Explicar o objetivo e a expectativa do contato." },
+        { "id": "form", "component": "contact-form", "purpose": "Coletar nome, empresa, cidade, contato, desafio e momento." },
+        { "id": "channels", "component": "contact-channels", "purpose": "Oferecer WhatsApp e canais institucionais." }
+      ]
+    },
+    {
+      "id": "links",
+      "path": "/links",
+      "title": "Links da Focar",
+      "goal": "Concentrar os caminhos principais da bio em uma página rápida, clara e orientada a ação.",
+      "status": "draft",
+      "sections": [
+        { "id": "intro", "component": "hero", "purpose": "Apresentar a página e conduzir para o CTA principal." },
+        { "id": "cta", "component": "cta-panel", "purpose": "Direcionar para diagnóstico, método e site principal." },
+        { "id": "channels", "component": "contact-channels", "purpose": "Expor canais institucionais e rede social principal." }
+      ]
+    },
+    {
+      "id": "privacy",
+      "path": "/privacidade",
+      "title": "Política de Privacidade",
+      "goal": "Explicar o tratamento dos dados do formulário e os direitos dos titulares.",
+      "status": "draft",
+      "sections": [
+        { "id": "intro", "component": "hero", "purpose": "Apresentar a política e sua data de atualização." },
+        { "id": "policy", "component": "legal-content", "purpose": "Registrar controlador, finalidades, compartilhamentos, retenção e direitos." }
+      ]
+    }
+  ]
+}

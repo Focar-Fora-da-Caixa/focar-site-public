@@ -1,0 +1,175 @@
+{
+  "status": "draft",
+  "seo": {
+    "title": "Crescimento digital para empresas locais",
+    "description": "Estratégia, conteúdo, produção audiovisual, tráfego pago e dados para empresas locais e regionais crescerem com mais direção."
+  },
+  "hero": {
+    "eyebrow": "Empresa de crescimento digital",
+    "title": "Menos marketing improvisado. Mais crescimento digital com direção, conteúdo e dados.",
+    "description": "A Focar estrutura a presença digital de empresas locais e regionais unindo posicionamento, conteúdo estratégico, produção audiovisual, tráfego pago e análise.",
+    "primaryAction": {
+      "label": "Solicitar diagnóstico",
+      "href": "/contato"
+    },
+    "secondaryAction": {
+      "label": "Conhecer o método",
+      "href": "/metodo"
+    }
+  },
+  "problem": {
+    "eyebrow": "O problema não é só a falta de posts",
+    "title": "O teu negócio pode ser forte — e ainda parecer pequeno no digital.",
+    "description": "Quando conteúdo, campanhas e decisões não seguem a mesma direção, o marketing vira uma sequência de tarefas. A empresa trabalha, entrega e cresce na prática, mas essa força não aparece com clareza para quem está do outro lado da tela.",
+    "items": [
+      {
+        "title": "Conteúdo sem direção",
+        "description": "A empresa publica para manter o calendário, mas não constrói uma mensagem reconhecível."
+      },
+      {
+        "title": "Campanhas sem leitura",
+        "description": "O investimento acontece sem conexão suficiente entre anúncio, atendimento e resultado comercial."
+      },
+      {
+        "title": "Presença abaixo da operação",
+        "description": "Concorrentes menos preparados parecem maiores porque comunicam melhor e aparecem com mais consistência."
+      },
+      {
+        "title": "Marketing no improviso",
+        "description": "As decisões dependem da urgência do momento porque não existe processo, prioridade ou aprendizado acumulado."
+      }
+    ]
+  },
+  "thesis": {
+    "eyebrow": "Nossa crença",
+    "title": "Empresas boas não podem parecer pequenas no digital.",
+    "description": "Marketing não é apenas aparecer. É tornar o valor da empresa visível, compreensível e relevante para que ela seja lembrada, considerada e escolhida."
+  },
+  "method": {
+    "eyebrow": "Sistema Focar de Crescimento Digital",
+    "title": "Um ciclo contínuo para substituir improviso por evolução.",
+    "description": "A Focar conecta estratégia e execução em seis etapas. Cada ciclo produz entregas, dados e decisões para melhorar o próximo.",
+    "steps": [
+      {
+        "id": "diagnostico",
+        "number": "01",
+        "title": "Diagnóstico",
+        "description": "Entendemos o negócio, a presença atual, o mercado, o público e os principais gargalos."
+      },
+      {
+        "id": "direcao",
+        "number": "02",
+        "title": "Direção",
+        "description": "Organizamos posicionamento, prioridades, temas, campanhas e indicadores."
+      },
+      {
+        "id": "producao",
+        "number": "03",
+        "title": "Produção",
+        "description": "Criamos roteiros, conteúdo, design e produção audiovisual com intenção comercial."
+      },
+      {
+        "id": "distribuicao",
+        "number": "04",
+        "title": "Distribuição",
+        "description": "Publicamos, ativamos canais e operamos campanhas para alcançar os públicos definidos."
+      },
+      {
+        "id": "analise",
+        "number": "05",
+        "title": "Análise",
+        "description": "Lemos indicadores, desempenho e dados comerciais com contexto."
+      },
+      {
+        "id": "otimizacao",
+        "number": "06",
+        "title": "Otimização",
+        "description": "Ajustamos conteúdo, mídia, posicionamento e prioridades para o ciclo seguinte."
+      }
+    ],
+    "action": {
+      "label": "Ver como o método funciona",
+      "href": "/metodo"
+    }
+  },
+  "services": {
+    "eyebrow": "Como a Focar atua",
+    "title": "Estratégia e execução trabalhando na mesma direção.",
+    "description": "A oferta não é organizada por quantidade de posts. Ela é organizada pelo problema, pelo estágio da empresa e pelo resultado que precisa ser construído.",
+    "items": [
+      {
+        "id": "gestao",
+        "label": "Oferta principal",
+        "title": "Gestão de Crescimento Digital",
+        "description": "Operação mensal de posicionamento, conteúdo, presença, tráfego pago e análise para empresas que precisam de direção contínua."
+      },
+      {
+        "id": "projetos",
+        "label": "Escopo definido",
+        "title": "Projetos de Crescimento",
+        "description": "Sites, landing pages, campanhas, lançamentos e projetos de posicionamento com objetivo, prazo e entrega definidos."
+      },
+      {
+        "id": "conteudo",
+        "label": "Produção com intenção",
+        "title": "Produção de Conteúdo Estratégico",
+        "description": "Captação e produção audiovisual com roteiro, direção e intenção comercial — não apenas vídeo por vídeo."
+      }
+    ],
+    "action": {
+      "label": "Conhecer os serviços",
+      "href": "/servicos"
+    }
+  },
+  "differentiators": {
+    "eyebrow": "Por que a Focar",
+    "title": "A proximidade de quem entende o negócio. A estrutura de quem acompanha o crescimento.",
+    "items": [
+      {
+        "title": "Estratégia com execução",
+        "description": "A mesma operação que define a direção participa da produção, distribuição, análise e ajuste."
+      },
+      {
+        "title": "Produção audiovisual própria",
+        "description": "A Focar transforma conhecimento real em conteúdo, sem depender de imagens genéricas para construir presença."
+      },
+      {
+        "title": "Direção de pessoas",
+        "description": "Empresários que nunca gravaram são conduzidos para comunicar com mais naturalidade, clareza e confiança."
+      },
+      {
+        "title": "Entendimento regional",
+        "description": "A estratégia considera a realidade de comércios, serviços e empresas familiares locais e regionais."
+      },
+      {
+        "title": "Decisões por dados",
+        "description": "Indicadores servem para orientar o próximo movimento, não apenas para preencher relatórios."
+      }
+    ]
+  },
+  "fit": {
+    "eyebrow": "Para quem faz sentido",
+    "title": "Para empresas que já entregam valor e querem construir uma presença à altura.",
+    "items": [
+      "Negócios com operação ativa e capacidade de atender melhor.",
+      "Empresas que precisam de direção, não apenas de execução de tarefas.",
+      "Lideranças dispostas a participar da estratégia e da comunicação.",
+      "Marcas que entendem crescimento como processo, não promessa imediata."
+    ]
+  },
+  "evidence": {
+    "enabled": false,
+    "title": "Projetos e resultados",
+    "disabledReason": "A seção será ativada quando existirem casos, métricas e autorizações suficientes para apresentar evidências verificáveis."
+  },
+  "cta": {
+    "eyebrow": "Próximo passo",
+    "title": "Vamos entender o que está impedindo a tua empresa de aparecer com mais força no digital.",
+    "description": "O diagnóstico inicial ajuda a identificar o momento da empresa, os principais gargalos e se a Focar é a parceira adequada para o próximo ciclo.",
+    "action": {
+      "label": "Solicitar diagnóstico",
+      "href": "/contato"
+    }
+  }
+}
+

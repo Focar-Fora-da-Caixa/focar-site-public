@@ -1,0 +1,62 @@
+{
+  "status": "draft",
+  "seo": {
+    "title": "Links da Focar",
+    "description": "Acesse os principais caminhos da Focar Fora da Caixa: diagnóstico, método, contato e presença digital."
+  },
+  "hero": {
+    "eyebrow": "Links principais",
+    "title": "Escolha por onde começar.",
+    "description": "Diagnóstico, WhatsApp e método em um só lugar."
+  },
+  "primaryAction": {
+    "label": "Solicitar diagnóstico",
+    "href": "/contato",
+    "note": "Leitura estratégica antes de qualquer proposta."
+  },
+  "secondaryActions": [
+    {
+      "label": "Falar no WhatsApp",
+      "href": "https://wa.me/5551982470671?utm_source=instagram&utm_medium=social&utm_content=link_in_bio",
+      "note": "Para começar direto pelo WhatsApp."
+    },
+    {
+      "label": "Conhecer o método",
+      "href": "/metodo",
+      "note": "Veja como a Focar estrutura o crescimento."
+    },
+    {
+      "label": "Ver o site completo",
+      "href": "/",
+      "note": "Acesse a presença institucional completa."
+    },
+    {
+      "label": "Instagram da Focar",
+      "href": "https://instagram.com/focarforadacaixa",
+      "note": "Bastidores e conteúdo da marca."
+    }
+  ],
+  "channels": [
+    {
+      "label": "WhatsApp",
+      "value": "+55 51 98247-0671",
+      "href": "https://wa.me/5551982470671?utm_source=instagram&utm_medium=social&utm_content=link_in_bio"
+    },
+    {
+      "label": "Instagram",
+      "value": "@focarforadacaixa",
+      "href": "https://instagram.com/focarforadacaixa"
+    },
+    {
+      "label": "E-mail institucional",
+      "value": "contato@focarforadacaixa.com.br",
+      "href": "mailto:contato@focarforadacaixa.com.br"
+    },
+    {
+      "label": "Comercial",
+      "value": "amanda@focarforadacaixa.com.br",
+      "href": "mailto:amanda@focarforadacaixa.com.br"
+    }
+  ],
+  "footerNote": "Links principais da Focar."
+}
