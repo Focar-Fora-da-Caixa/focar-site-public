@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 
 import { siteContent } from "@focar/content";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { createFaviconDataUrl } from "@/components/brand-assets";
 import { SiteChrome } from "@/components/site-chrome";
@@ -123,6 +125,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
           type="application/ld+json"
         />
         <SiteChrome>{children}</SiteChrome>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
